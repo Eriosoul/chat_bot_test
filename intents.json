@@ -1,0 +1,129 @@
+{
+  "intents": [
+  {
+    "tag": "saludo",
+    "patterns": [
+      "Hola",
+      "¿Qué tal?",
+      "Buenos días",
+      "Hola, ¿cómo estás?"
+    ],
+    "responses": [
+      "¡Hola!",
+      "Hola, ¿en qué puedo ayudarte?",
+      "¡Buenos días!"
+    ]
+  },
+  {
+    "tag": "despedida",
+    "patterns": [
+      "Adiós",
+      "Hasta luego",
+      "Nos vemos",
+      "Chao"
+    ],
+    "responses": [
+      "¡Hasta luego!",
+      "Adiós, que tengas un buen día",
+      "Nos vemos pronto"
+    ]
+  },
+  {
+    "tag": "informacion",
+    "patterns": [
+      "¿Cuál es tu nombre?",
+      "¿Qué haces?",
+      "¿Dónde vives?",
+      "¿Cómo funcionas?"
+    ],
+    "responses": [
+      "Soy un bot de chat",
+      "Mi función es ayudarte a responder preguntas",
+      "No tengo una ubicación física"
+    ]
+  },
+  {
+    "tag": "edad",
+    "patterns": [
+      "¿Cuántos años tienes?",
+      "¿Cuándo naciste?",
+      "¿Eres joven o viejo?"
+    ],
+    "responses": [
+      "Soy un programa de inteligencia artificial, no tengo edad",
+      "No tengo una fecha de nacimiento"
+    ]
+  },
+  {
+    "tag": "clima",
+    "patterns": [
+      "¿Cómo está el clima hoy?",
+      "¿Va a llover?",
+      "¿Hace calor?"
+    ],
+    "responses": [
+      "No tengo acceso a información en tiempo real",
+      "Te recomiendo revisar un sitio web de pronóstico del clima"
+    ]
+  },
+  {
+    "tag": "gracias",
+    "patterns": [
+      "Gracias",
+      "¡Muchas gracias!",
+      "Te agradezco"
+    ],
+    "responses": [
+      "De nada",
+      "¡De nada!, Estoy aquí para ayudarte",
+      "¡Es un placer ayudarte!"
+    ]
+  },
+  {
+    "tag": "ayuda",
+    "patterns": [
+      "Necesito ayuda",
+      "¿Puedes ayudarme?",
+      "No entiendo"
+    ],
+    "responses": [
+      "Claro, estaré encantado de ayudarte. ¿En qué puedo asistirte?",
+      "Por supuesto, cuéntame en qué tienes dificultades y trataré de ayudarte"
+    ]
+  },
+  {
+    "tag": "gusto",
+    "patterns": [
+      "¿Cuál es tu comida favorita?",
+      "¿Qué tipo de música te gusta?",
+      "¿Practicas algún deporte?",
+      "¿Tocas algún instrumento?",
+      "¿Has viajado a algún lugar?"
+    ],
+    "responses": [
+      "Soy un bot de chat, no tengo preferencias",
+      "Como bot de chat, no tengo preferencias",
+      "Soy un bot de chat, no tengo preferencias",
+      "Como bot de chat, no tengo preferencias",
+      "Como bot de chat, no tengo la capacidad de viajar físicamente"
+    ]
+  },
+    {
+  "tag": "preguntas_generales",
+  "patterns": [
+    "¿Cuál es el sentido de la vida?",
+    "¿Existe vida extraterrestre?",
+    "¿Cuál es el significado del amor?",
+    "¿Cuál es la respuesta a todo?",
+    "¿Qué es la felicidad?"
+  ],
+  "responses": [
+    "El sentido de la vida puede variar para cada persona",
+    "No hay evidencia concluyente de vida extraterrestre en este momento",
+    "El significado del amor es subjetivo y puede ser diferente para cada individuo",
+    "La respuesta a todo es un concepto filosófico y puede depender de la interpretación",
+    "La felicidad es un estado emocional de bienestar y satisfacción personal"
+    ]
+    }
+  ]
+}
